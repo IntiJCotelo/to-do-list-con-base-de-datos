@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+#div-input {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+#input {
+    margin-right: 5px;
+}
+
+#div-ul {
+    text-align: center;
+}
