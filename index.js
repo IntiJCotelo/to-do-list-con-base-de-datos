@@ -66,12 +66,6 @@ app.put("/tareas/:id", async (req, res) => {
   });
 });
 
-app.get("/tareas/:id", async (req, res) => {
-  const { id } = req.params;
-  const tarea = await Tarea.findById(id);
-  res.json(tarea);
-});
-
 app.listen(3000, () => {
   console.log("Servidor corriendo en el puerto 3000");
 });

@@ -101,12 +101,6 @@ async function eliminarTarea(id) {
   mostrarTareas();
 }
 
-async function mostrarDatos(id) {
-  const respuesta = await fetch(`http://localhost:3000/tareas/${id}`);
-  const tarea = await respuesta.json();
-  return tarea;
-}
-
 btnAgregar.addEventListener("click", () => {
   agregarTarea();
 });
